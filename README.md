@@ -11,6 +11,7 @@
 9) Git commit and push the code to origin
 
 # How to `brew install` this package
-1) Run `brew tap ryanangjy/package`. This will install the "ryanangjy/package" Homebrew Tap onto your local machine. Note that if this Tap already exists, it will update the files with the latest changes you committed in step 9 in the "How to update this package" section above.
+
+1) Run `brew tap ryanangjy/homebrew-package`. This will install the "ryanangjy/homebrew-package" Homebrew Tap onto your local machine. Note that if this Tap already exists, it will update the files with the latest changes you committed in step 9 in the "How to update this package" section above.
 2) Run `brew install homebrew-package`
 3) Run `homebrew-package` to run the binary!

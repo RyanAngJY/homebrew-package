@@ -12,7 +12,7 @@ class HomebrewPackage < Formula
 
   # You will define all the installation steps here
   def install
-    # We are basically copy the binary file "main" into Homebrew's bin directory (/usr/local/Cellar/pkg/0.1/bin), renames it as "homebrew-package", and makes it executable (chmod 0555 homebrew-package). Now, the user can simply run "homebrew-package" to run the binary file!
+    # We are basically copying the binary file "main" into Homebrew's bin directory (/usr/local/Cellar/pkg/0.1/bin), renames it as "homebrew-package", and makes it executable (chmod 0555 homebrew-package). Now, the user can simply run "homebrew-package" to run the binary file!
     bin.install "main" => "homebrew-package"
   end
 
