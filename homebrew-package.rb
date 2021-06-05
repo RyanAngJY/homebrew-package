@@ -13,4 +13,8 @@ class HomebrewPackage < Formula
   def install
     bin.install "test"
   end
+
+  test do
+    assert_match "hello", "hello"
+  end
 end
