@@ -11,10 +11,10 @@ class HomebrewPackage < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "test"
+    bin.install "main" => "golandbrewtest"
   end
 
   test do
-    assert_match "hello", "hello"
+    assert_equal "hello", "hello"
   end
 end
